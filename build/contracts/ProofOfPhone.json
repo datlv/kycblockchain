@@ -1,0 +1,136 @@
+{
+  "contract_name": "ProofOfPhone",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "phone",
+          "type": "uint256"
+        }
+      ],
+      "name": "getAddressByPhone",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "phone",
+          "type": "uint256"
+        },
+        {
+          "name": "token",
+          "type": "bytes32"
+        }
+      ],
+      "name": "newToken",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "addressPhonePair",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "token",
+          "type": "bytes32"
+        }
+      ],
+      "name": "activatePair",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "addr",
+          "type": "address"
+        }
+      ],
+      "name": "getPhoneByAddress",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "phoneAddressPair",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "addr",
+          "type": "address"
+        }
+      ],
+      "name": "hasPhone",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000c57fe5b5b6103158061001c6000396000f300606060405236156100675763ffffffff60e060020a6000350416630367966681146100695780633404fe321461009857806371d01c73146100b05780639fbebee5146100de578063b958a5e1146100f3578063ceaecc8414610121578063fe97ee8814610150575bfe5b341561007157fe5b61007c600435610180565b60408051600160a060020a039092168252519081900360200190f35b34156100a057fe5b6100ae60043560243561019e565b005b34156100b857fe5b6100cc600160a060020a03600435166101ef565b60408051918252519081900360200190f35b34156100e657fe5b6100ae600435610201565b005b34156100fb57fe5b6100cc600160a060020a036004351661027b565b60408051918252519081900360200190f35b341561012957fe5b61007c60043561029a565b60408051600160a060020a039092168252519081900360200190f35b341561015857fe5b61016c600160a060020a03600435166102b5565b604080519115158252519081900360200190f35b600081815260016020526040902054600160a060020a03165b919050565b60408051808201825283815233600160a060020a039081166020808401918252600086815260029091529390932091518255915160019091018054600160a060020a031916919092161790555b5050565b60006020819052908152604090205481565b60008181526002602052604090206001015433600160a060020a0390811691161461022c5760006000fd5b600081815260026020908152604080832060018082018054835487529185528386208054600160a060020a031916600160a060020a039384161790559154915416845291839052909120555b50565b600160a060020a0381166000908152602081905260409020545b919050565b600160205260009081526040902054600160a060020a031681565b600160a060020a038116600090815260208190526040812054156102db57506001610199565b506000610199565b5b9190505600a165627a7a7230582032313965cd44ae53e44901572f9d76518bf1afb50464dbbabc29cf7137183f5f0029",
+  "networks": {
+    "3": {
+      "events": {},
+      "links": {},
+      "address": "0x97e7ba07792f6d37851ff587a23f69a6d44cf676",
+      "updated_at": 1499311056071
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1499311056071
+}
