@@ -4,6 +4,7 @@ example kyc on blockchain
 run:
 
 brew tap ethereum/ethereum
+
 brew install ethereum
 
 run ethereum testnet:
@@ -13,19 +14,25 @@ geth --testnet --syncmode "fast" --rpc --rpcapi db,eth,net,web3,personal --cache
 install truffle:
 
 $npm install -g truffle
+
 $npm install -g webpack
+
 $npm install web3@0.9.0
 
 deploy smart contract:
 
 $truffle console
+
 >truffle(default)>web3.personal.unlockAccount('0x95a94979d86d9c32d1d2ab5ace2dcc8d1b446fa1', 'verystrongpassword', 15000)
+
 >truffle(default)>migrate
 ....
 
 open new terminal:
+
 $npm run dev
 
 open webrowser support web3
+
 http://localhost:8080
 
